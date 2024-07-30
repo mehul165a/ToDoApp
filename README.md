@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Todo List Application
+
+## Overview
+This is a Todo List application built with React, providing features to create, update, mark as done, and search tasks. The tasks are displayed in an expandable list format, showing a description and a timestamp of the last update when expanded.
+
+## Implementation
+- **Frontend Framework**: React
+- **Data Storage**: Dummy JSON file (`src/data/tasks.json`)
+- **Features**: 
+  - Create Task
+  - Update Task
+  - Mark as Done
+  - Search Tasks
+  - Expandable List
+
+## Setup and Run
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
+4. Open `http://localhost:3000` in your browser.
+
+## Future Enhancements
+- Integrate with a real backend API.
+- Add user authentication.
+- Improve UI with better styling.
